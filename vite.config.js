@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// Basic Vite config — just tells Vite we're using React
 export default defineConfig({
   plugins: [react()],
-});
+})
